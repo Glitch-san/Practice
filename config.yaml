@@ -1,0 +1,15 @@
+database:
+  host: localhost
+  port: 5432
+  name: logdb
+  user: postgres
+  password: postgres
+
+logs:
+  directory: sample_logs
+  file_mask: "*.log"
+  log_format: common
+
+app:
+  secret_key: "my-super-secret-key-12345"
+  debug: true
